@@ -96,5 +96,5 @@ let arr3=[1,2,3,56,79,89]
 let arr4 =arr.reduce((h1,h2)=>{
     return h1+h2    
 })
-console.log(arr4)
+console.log(arr4)  // sums up the elements of array 
 
