@@ -21,10 +21,10 @@ console.log(Sentence)
 // 1) length of string
 console.log(name.length)
 // 2) to upper case
-// console.log(name.touppercase())
+// console.log(name.toUppercase())
 //  3) to lower case
-const lowercasetext = name.toLowercase(); 
-console.log(lowercasetext)  
+// const lowercasetext = name.toLowercase(); 
+// console.log(lowercasetext)  
 //  4) slincing a string 
 console.log(name.slice(1,5)) // 5th charcter will not be included and starts fron 0 
 console.log(name.slice(1))   // prints from 1 to end 
@@ -41,4 +41,14 @@ console.log(name[0])  // it will print 0th charcter of name
 //  9) use of \n , \t , \r in js 
 console.log("Aryan\tis\ta\tgood\tboy\t,who\tstudies\tEngineering") // puts tab space between words
 console.log("Aryan is a good boy \nwho studies Engineering") // used to print in new line
+
+// include function , it returs the boolean value of a string 
+//example
+let str2 = "Aryan is Good Boy"
+console.log(str2.includes("Good"))  // true Good is included in the string
+
+//  startswith and endswith function , it returs the boolean value of a string 
+
+console.log(str2.startsWith("Boy"),str2.endsWith("Boy"))  // first false then true 
+
 

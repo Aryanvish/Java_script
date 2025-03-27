@@ -52,5 +52,49 @@ console.log(a) // print the modified array
  
 let w = [1,55,67,34,65]
 let x = w.slice(3)
-console.log(x)
-console.log(w)
+console.log(x) // returns new array 
+console.log(w) // prints the original array 
+
+// Looping through array's
+ 
+
+// let d = [23,43,56,78,16]
+// for(i=0;i<d.length;i++){
+//     console.log(d[i])
+// }
+
+// methods 
+// 1) for each loop 
+let d = [23,43,56,78,16]
+
+d.forEach((element)=>{
+    console.log(element*element)
+
+})
+
+
+// 2) map()
+let arr = [23,1,5,4,3]
+let f = arr.map((value)=>{
+    console.log(value)
+    return value*value
+})
+console.log(f)
+
+// filter()method
+
+let arr2=[1,34,5,76,67,4,5]
+ 
+let y = arr.filter((g)=>{
+    return g<10
+})
+console.log(y)// does not change original array
+
+
+// reduce method 
+let arr3=[1,2,3,56,79,89]
+let arr4 =arr.reduce((h1,h2)=>{
+    return h1+h2    
+})
+console.log(arr4)
+
